@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>ESP32 Camera Feed</title>
+</head>
+<body>
+    <h1>Uploaded Images</h1>
+
+```
+{% for img in images %}
+    <div>
+        <img src="/uploads/{{ img }}" width="300">
+    </div>
+{% endfor %}
+```
+
+</body>
+</html>
